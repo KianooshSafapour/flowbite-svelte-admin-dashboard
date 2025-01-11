@@ -37,12 +37,12 @@
 			</NavUl>
 		{/if}
 	</div>
-	<div class="me-auto flex items-center text-gray-500 dark:text-gray-400 sm:order-2">
+	<div class="me-auto flex items-center text-gray-500 sm:order-2 dark:text-gray-400">
 		<UserMenu {...Users[4]} />
 	</div>
-	<div class="ms-auto flex items-center text-gray-500 dark:text-gray-400 sm:order-2">
-		<Notifications />
-		<AppsMenu />
+	<div class="ms-auto flex items-center text-gray-500 sm:order-2 dark:text-gray-400">
+		<!-- <Notifications />
+		<AppsMenu /> -->
 		<DarkMode />
 	</div>
 </Navbar>
