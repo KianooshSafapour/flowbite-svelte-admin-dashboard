@@ -18,7 +18,7 @@
 			"string",
 			"'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white'"
 		],
-		["siteImgClass", "string", "'mr-4 h-11'"],
+		["siteImgClass", "string", "'ml-4 h-11'"],
 		["cardH1Class", "string", "'mb-3 text-2xl font-bold text-gray-900 dark:text-white'"],
 		["cardDiv3Class", "string", "'flex space-x-4'"],
 		["userImgClass", "string", "'w-8 h-8 rounded-full'"]

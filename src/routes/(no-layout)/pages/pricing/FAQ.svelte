@@ -114,7 +114,7 @@
 		<p class="text-gray-600 dark:text-gray-400">
 			You can purchase a license that you can share with your entire team here:
 		</p>
-		<ul class="list-disc pl-4">
+		<ul class="list-disc pr-4">
 			<li class="mb-2 text-gray-600">
 				<span
 					class="cursor-pointer font-medium text-primary-600 hover:underline dark:text-primary-500"

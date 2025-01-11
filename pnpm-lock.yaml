@@ -8,9 +8,12 @@ importers:
 
   .:
     dependencies:
-      flowbite-svelte-icons:
-        specifier: ^1.6.1
-        version: 1.6.1(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13)
+      flowbite-svelte-admin-dashboard:
+        specifier: ^0.1.2
+        version: 0.1.2(rollup@4.22.5)(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13)
+      svelte-fontawesome:
+        specifier: ^0.0.3
+        version: 0.0.3
       tailwind-merge:
         specifier: ^2.5.2
         version: 2.5.2
@@ -48,9 +51,15 @@ importers:
       eslint-plugin-svelte:
         specifier: ^2.44.1
         version: 2.44.1(eslint@9.11.1(jiti@1.21.6))(svelte@4.2.19)
+      flowbite:
+        specifier: ^2.5.2
+        version: 2.5.2(rollup@4.22.5)
       flowbite-svelte:
         specifier: ^0.46.22
         version: 0.46.22(rollup@4.22.5)(svelte@4.2.19)
+      flowbite-svelte-icons:
+        specifier: ^1.6.1
+        version: 1.6.1(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13)
       globals:
         specifier: ^15.9.0
         version: 15.9.0
@@ -907,12 +916,23 @@ packages:
   flowbite-datepicker@1.3.0:
     resolution: {integrity: sha512-CLVqzuoE2vkUvWYK/lJ6GzT0be5dlTbH3uuhVwyB67+PjqJWABm2wv68xhBf5BqjpBxvTSQ3mrmLHpPJ2tvrSQ==}
 
+  flowbite-svelte-admin-dashboard@0.1.2:
+    resolution: {integrity: sha512-Y33Slw0qd9vMA1ax1DEz8/yDxBeWN9yeyh8IPr1v94pUSOsrDDDoZM2gHvXjssZYmna9A7WGSxl3oK8/mX45Dw==}
+    peerDependencies:
+      svelte: ^4.0.0
+
   flowbite-svelte-icons@1.6.1:
     resolution: {integrity: sha512-Kw/7BzA6fqlFq7tBNudwX0KVU4cbyyXcMcgHTraMwGBtvBQan0RKMbvWwqm4JZNvLGAvRv1BM2EF7rzo/oam1Q==}
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0
       tailwind-merge: ^2.0.0
       tailwindcss: ^3.3.2
+
+  flowbite-svelte@0.44.24:
+    resolution: {integrity: sha512-kXhJZHGpBVq5RFOoYnzRCEM8eFa81DVp4KjUbBsLJptKhizbSSBJuYApWIQb9pBCS8EBhX4PAX+RsgEDZfEqtA==}
+    engines: {node: '>=18.0.0', pnpm: '>=8.0.0'}
+    peerDependencies:
+      svelte: ^4.0.0
 
   flowbite-svelte@0.46.22:
     resolution: {integrity: sha512-U+YeJ3ye1OV/9d9VGff/0yuWxkv2Cdk71bvy5JJszIjfEfRvEzX5Ovjm6SHYp51B6hLwEdmMFJXPo5bTmEMGkA==}
@@ -1503,6 +1523,9 @@ packages:
     peerDependenciesMeta:
       svelte:
         optional: true
+
+  svelte-fontawesome@0.0.3:
+    resolution: {integrity: sha512-iC3aqOiaQ2yBJ5kxDIlQNhLQ1rRxxb6yxTzpzUTkLfFJSVGRCFZPNuS+Yu5xy9pg5c0dDz/E3f6KcmpeUlk3Hw==}
 
   svelte-hmr@0.16.0:
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}
@@ -2546,11 +2569,31 @@ snapshots:
     transitivePeerDependencies:
       - rollup
 
+  flowbite-svelte-admin-dashboard@0.1.2(rollup@4.22.5)(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13):
+    dependencies:
+      flowbite-svelte: 0.44.24(rollup@4.22.5)(svelte@4.2.19)
+      flowbite-svelte-icons: 1.6.1(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13)
+      svelte: 4.2.19
+    transitivePeerDependencies:
+      - rollup
+      - tailwind-merge
+      - tailwindcss
+
   flowbite-svelte-icons@1.6.1(svelte@4.2.19)(tailwind-merge@2.5.2)(tailwindcss@3.4.13):
     dependencies:
       svelte: 4.2.19
       tailwind-merge: 2.5.2
       tailwindcss: 3.4.13
+
+  flowbite-svelte@0.44.24(rollup@4.22.5)(svelte@4.2.19):
+    dependencies:
+      '@floating-ui/dom': 1.6.11
+      apexcharts: 3.54.0
+      flowbite: 2.5.2(rollup@4.22.5)
+      svelte: 4.2.19
+      tailwind-merge: 2.5.2
+    transitivePeerDependencies:
+      - rollup
 
   flowbite-svelte@0.46.22(rollup@4.22.5)(svelte@4.2.19):
     dependencies:
@@ -3031,6 +3074,8 @@ snapshots:
       postcss-scss: 4.0.9(postcss@8.4.47)
     optionalDependencies:
       svelte: 4.2.19
+
+  svelte-fontawesome@0.0.3: {}
 
   svelte-hmr@0.16.0(svelte@4.2.19):
     dependencies:

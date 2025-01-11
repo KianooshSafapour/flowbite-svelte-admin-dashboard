@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'IRYekan';
+    src: url('/fonts/IRYekan.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRYekan';
+    src: url('/fonts/IRYekan-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRAN Sans';
+    src: url('/fonts/IRAN-Sans.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRAN Sans';
+    src: url('/fonts/IRAN-Sans-Bold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}

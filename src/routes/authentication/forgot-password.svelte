@@ -15,15 +15,15 @@
 
 	const path: string = '/authentication/forgot-password';
   const description: string = 'Forgot password example - Flowbite Svelte Admin Dashboard';
-	const title: string = 'Flowbite Svelte Admin Dashboard - Forgot password';
-  const subtitle: string = 'Forgot password';
+	const title: string = 'بازیابی رمز عبور';
+  const subtitle: string = 'فراموشی رمز عبور';
 </script>
 
 <MetaTag {path} {description} {title} {subtitle} />
 
 <ForgotPassword on:submit={onSubmit}>
 	<div>
-		<Label for="email" class="mb-2">Your email</Label>
+		<Label for="email" class="mb-2">ایمیل</Label>
 		<Input
 			type="email"
 			name="email"
@@ -33,5 +33,5 @@
 			class="border outline-none"
 		/>
 	</div>
-	<Checkbox class="gap-1">I accept the <A href="/">Terms and Conditions</A></Checkbox>
+	<Checkbox class="gap-1">من با <A href="/">شرایط و قوانین</A> موافقم</Checkbox>
 </ForgotPassword>

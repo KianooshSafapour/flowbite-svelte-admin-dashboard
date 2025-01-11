@@ -17,7 +17,7 @@
 	{/if}
 	<PriceCardPrice value={price} {period} />
 	<!-- List -->
-	<ul role="list" class="mb-8 space-y-4 text-left">
+	<ul role="list" class="mb-8 space-y-4 text-right">
 		<slot Item={PriceCardListItem} />
 	</ul>
 	<a

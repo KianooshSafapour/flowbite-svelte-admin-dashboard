@@ -17,7 +17,7 @@
 			<svelte:component this={icon} size="xs" class="text-gray-50 dark:text-white" />
 		{/if}
 	</IconAvatar>
-	<div class="w-full pl-3">
+	<div class="w-full pr-3">
 		<div class="mb-1.5 text-sm font-normal text-gray-500 dark:text-gray-400">
 			<slot />
 		</div>

@@ -34,7 +34,7 @@
 		<TableHeadCell></TableHeadCell>
 		{#each columns as column}
 			<TableHeadCell
-				class="p-4 text-right text-base font-semibold tracking-wider text-gray-900 dark:text-white"
+				class="p-4 text-left text-base font-semibold tracking-wider text-gray-900 dark:text-white"
 				>{column}</TableHeadCell
 			>
 		{/each}
@@ -52,14 +52,14 @@
 					{#if typeof value === 'boolean'}
 						<TableBodyCell>
 							{#if value}
-								<CheckOutline class="ml-auto text-green-400" />
+								<CheckOutline class="mr-auto text-green-400" />
 							{:else}
-								<CloseOutline class="ml-auto text-red-500" />
+								<CloseOutline class="mr-auto text-red-500" />
 							{/if}
 						</TableBodyCell>
 					{:else}
 						<TableBodyCell
-							class="flex-shrink-0 text-right text-xs font-medium text-gray-900 dark:text-white sm:text-sm md:text-base"
+							class="flex-shrink-0 text-left text-xs font-medium text-gray-900 dark:text-white sm:text-sm md:text-base"
 						>
 							{value}
 						</TableBodyCell>

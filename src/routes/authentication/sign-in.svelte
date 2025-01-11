@@ -2,7 +2,7 @@
 	import { Label, Input } from 'flowbite-svelte';
 	import SignIn from '../utils/authentication/SignIn.svelte';
   import MetaTag from '../utils/MetaTag.svelte';
-	let title = 'Sign in to platform';
+	let title = 'ورود به سیستم';
 	let site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
@@ -13,9 +13,9 @@
 	let lostPassword = true;
 	let createAccount = true;
 	let lostPasswordLink = 'forgot-password';
-	let loginTitle = 'Login to your account';
+	let loginTitle = 'ورود به داشبورد';
 	let registerLink = 'sign-up';
-	let createAccountTitle = 'Create account';
+	let createAccountTitle = 'ساخت اکانت';
 
 	const onSubmit = (e: Event) => {
 		const formData = new FormData(e.target as HTMLFormElement);

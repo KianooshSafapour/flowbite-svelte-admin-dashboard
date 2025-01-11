@@ -7,7 +7,7 @@
 	<div class="grid grid-cols-1 pt-2 dark:bg-gray-900 xl:grid-cols-3 xl:gap-4 xl:px-0">
 		<div class="col-span-full mb-4 xl:mb-2">
 			<Breadcrumb class="mb-5">
-				<BreadcrumbItem href="/" home>Home</BreadcrumbItem>
+				<BreadcrumbItem href="/" home>خانه</BreadcrumbItem>
 				<BreadcrumbItem href="/">Pages</BreadcrumbItem>
 				<BreadcrumbItem>Playground</BreadcrumbItem>
 			</Breadcrumb>

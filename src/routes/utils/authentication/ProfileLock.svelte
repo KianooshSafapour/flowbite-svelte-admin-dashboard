@@ -8,18 +8,18 @@
 		imgAlt: 'FlowBite Logo'
 	};
 	export let user = {
-		name: 'Bonnie Green',
+		name: 'کیانوش صفاپور',
 		img: '/images/users/bonnie-green.png',
-		imgAlt: 'Bonnie Green'
+		imgAlt: 'کیانوش صفاپور'
 	};
-	export let btnTitle = 'Unlock';
-	export let pageDescription = 'Better to be safe than sorry.';
+	export let btnTitle = 'باز کردن';
+	export let pageDescription = 'رعایت امنیت بهتر از ریسک کردن است';
 	export let mainClass = 'bg-gray-50 dark:bg-gray-900 w-full';
 	export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 	export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-	export let siteImgClass = 'mr-4 h-11';
+	export let siteImgClass = 'ml-4 h-11';
 	export let cardH1Class = 'mb-3 text-2xl font-bold text-gray-900 dark:text-white';
 	export let cardDiv3Class = 'flex space-x-4';
 	export let userImgClass = 'w-8 h-8 rounded-full';
@@ -49,12 +49,12 @@
 				{#if acceptTerms}
 					<Checkbox class="accent-primary-600">
 						<span>
-							I accept the <a href={termsLink} class={termsLinkClass}>Terms and Conditions</a>
+							من با <a href={termsLink} class={termsLinkClass}>شرایط و قوانین</a> موافقم
 						</span>
 					</Checkbox>
 				{/if}
 				<Button size="lg" type="submit">
-					<LockOpenSolid size="lg" class="mr-2" />
+					<LockOpenSolid size="lg" class="ml-2" />
 					{btnTitle}
 				</Button>
 			</form>
@@ -73,18 +73,18 @@
 		imgAlt: 'FlowBite Logo'
 	};
 @prop export let user = {
-		name: 'Bonnie Green',
+		name: 'کیانوش صفاپور',
 		img: '/images/users/bonnie-green.png',
-		imgAlt: 'Bonnie Green'
+		imgAlt: 'کیانوش صفاپور'
 	};
-@prop export let btnTitle = 'Reset password';
-@prop export let pageDescription = 'Better to be safe than sorry.';
+@prop export let btnTitle = 'ریست پسورد';
+@prop export let pageDescription = 'رعایت امنیت بهتر از ریسک کردن است';
 @prop export let mainClass = 'bg-gray-50 dark:bg-gray-900 w-full';
 @prop export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 @prop export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-@prop export let siteImgClass = 'mr-4 h-11';
+@prop export let siteImgClass = 'ml-4 h-11';
 @prop export let cardH1Class = 'mb-3 text-2xl font-bold text-gray-900 dark:text-white';
 @prop export let cardDiv3Class = 'flex space-x-4';
 @prop export let userImgClass = 'w-8 h-8 rounded-full';

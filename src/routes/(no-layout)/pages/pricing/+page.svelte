@@ -34,7 +34,7 @@
 	</NavBrand>
 	<NavHamburger />
 	<NavUl class="me-auto ms-8">
-		<NavLi href="/">Home</NavLi>
+		<NavLi href="/">خانه</NavLi>
 		<NavLi href="/">Team</NavLi>
 		<NavLi href="/pricing">Pricing</NavLi>
 		<NavLi href="/contact">Contact</NavLi>

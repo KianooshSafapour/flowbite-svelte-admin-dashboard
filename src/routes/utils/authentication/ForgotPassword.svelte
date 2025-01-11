@@ -1,21 +1,21 @@
 <script lang="ts">
 	import { Button, Card, P } from 'flowbite-svelte';
-	export let title = 'Forgot your password?';
+	export let title = 'ریست پسورد';
 	export let site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
 		link: '/',
 		imgAlt: 'FlowBite Logo'
 	};
-	export let btnTitle = 'Reset password';
+	export let btnTitle = 'ریست پسورد';
 	export let pageDescription =
-		"Don't fret! Just type in your email and we will send you a code to reset your password!";
+		"برای ریست پسورد ایمیل خود را وارد کنید و کدی که به شما ارسال خواهد شد را وارد کنید.";
 	export let mainClass = 'bg-gray-50 dark:bg-gray-900';
 	export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 	export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-	export let siteImgClass = 'mr-4 h-11';
+	export let siteImgClass = 'ml-4 h-11';
 	export let cardH1Class = 'mb-3 text-2xl font-bold text-gray-900 dark:text-white';
 </script>
 
@@ -43,21 +43,21 @@
 @component
 [Go to docs](https://flowbite-svelte-admin-dashboard.vercel.app/)
 ## Props
-@prop export let title = 'Forgot your password?';
+@prop export let title = 'ریست پسورد';
 @prop export let site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
 		link: '/',
 		imgAlt: 'FlowBite Logo'
 	};
-@prop export let btnTitle = 'Reset password';
+@prop export let btnTitle = 'ریست پسورد';
 @prop export let pageDescription =
-		"Don't fret! Just type in your email and we will send you a code to reset your password!";
+		"برای ریست پسورد ایمیل خود را وارد کنید و کدی که به شما ارسال خواهد شد را وارد کنید.";
 @prop export let mainClass = 'bg-gray-50 dark:bg-gray-900';
 @prop export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 @prop export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-@prop export let siteImgClass = 'mr-4 h-11';
+@prop export let siteImgClass = 'ml-4 h-11';
 @prop export let cardH1Class = 'mb-3 text-2xl font-bold text-gray-900 dark:text-white';
 -->

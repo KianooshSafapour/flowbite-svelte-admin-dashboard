@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { Label, Input, Checkbox, A, Button, Card } from 'flowbite-svelte';
-	export let title = 'Sign in to platform';
+	export let title = 'ورود به سیستم';
 	export let site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
@@ -11,16 +11,16 @@
 	export let lostPassword = true;
 	export let createAccount = true;
 	export let lostPasswordLink = '';
-	export let loginTitle = 'Login to your account';
+	export let loginTitle = 'ورود به داشبورد';
 	export let registerLink = '';
-	export let createAccountTitle = 'Create account';
+	export let createAccountTitle = 'ساخت اکانت';
 
 	export let mainClass = 'bg-gray-50 dark:bg-gray-900 w-full';
 	export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 	export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-	export let siteImgClass = 'mr-4 h-11';
+	export let siteImgClass = 'ml-4 h-11';
 	export let cardH1Class = 'text-2xl font-bold text-gray-900 dark:text-white';
 </script>
 
@@ -40,17 +40,17 @@
 				{#if rememberMe || lostPassword}
 					<div class="flex items-start">
 						{#if rememberMe}
-							<Checkbox class="accent-primary-600" name="remember">Remember me</Checkbox>
+							<Checkbox class="accent-primary-600" name="remember">ذخیره</Checkbox>
 						{/if}
 						{#if lostPassword}
-							<A href={lostPasswordLink} aClass="ml-auto text-sm">Lost Password?</A>
+							<A href={lostPasswordLink} aClass="mr-auto text-sm">فراموشی پسورد?</A>
 						{/if}
 					</div>
 				{/if}
 				<Button type="submit" size="lg">{loginTitle}</Button>
 				{#if createAccount}
 					<div class="text-sm font-medium text-gray-500 dark:text-gray-400">
-						Not registered? <A href={registerLink}>{createAccountTitle}</A>
+						هنوز ثبت نام نکرده اید؟ <A href={registerLink}>{createAccountTitle}</A>
 					</div>
 				{/if}
 			</form>
@@ -62,7 +62,7 @@
 @component
 [Go to docs](https://flowbite-svelte-admin-dashboard.vercel.app/)
 ## Props
-@prop export let title = 'Sign in to platform';
+@prop export let title = 'ورود به سیستم';
 @prop export let site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
@@ -73,14 +73,14 @@
 @prop export let lostPassword = true;
 @prop export let createAccount = true;
 @prop export let lostPasswordLink = '';
-@prop export let loginTitle = 'Login to your account';
+@prop export let loginTitle = 'ورود به داشبورد';
 @prop export let registerLink = '';
-@prop export let createAccountTitle = 'Create account';
+@prop export let createAccountTitle = 'ساخت اکانت';
 @prop export let mainClass = 'bg-gray-50 dark:bg-gray-900 w-full';
 @prop export let mainDivClass =
 		'flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900';
 @prop export let siteLinkClass =
 		'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white';
-@prop export let siteImgClass = 'mr-4 h-11';
+@prop export let siteImgClass = 'ml-4 h-11';
 @prop export let cardH1Class = 'text-2xl font-bold text-gray-900 dark:text-white';
 -->

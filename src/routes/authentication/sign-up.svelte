@@ -3,7 +3,7 @@
 	import SignUp from '../utils/authentication/SignUp.svelte';
   import MetaTag from '../utils/MetaTag.svelte';
 
-	const title = 'Create a Free Account';
+	const title = 'ایجاد حساب کاربری';
 	const site = {
 		name: 'Flowbite',
 		img: '/images/flowbite-svelte-icon-logo.svg',
@@ -12,7 +12,7 @@
 	};
 	const acceptTerms = true;
 	const haveAccount = true;
-	const btnTitle = 'Create account';
+	const btnTitle = 'ساخت اکانت';
 	const termsLink = '/';
 	const loginLink = 'sign-in';
 	const labelClass = 'space-y-2 dark:text-white';

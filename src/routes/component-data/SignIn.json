@@ -3,15 +3,15 @@
 	"slots": [],
 	"events": [],
 	"props": [
-		["title", "string", "'Sign in to platform'"],
+		["title", "string", "'ورود به سیستم'"],
 		["site", "string", "{"],
 		["rememberMe", "string", "true"],
 		["lostPassword", "string", "true"],
 		["createAccount", "string", "true"],
 		["lostPasswordLink", "string", "''"],
-		["loginTitle", "string", "'Login to your account'"],
+		["loginTitle", "string", "'ورود به داشبورد'"],
 		["registerLink", "string", "''"],
-		["createAccountTitle", "string", "'Create account'"],
+		["createAccountTitle", "string", "'ساخت اکانت'"],
 		["mainClass", "string", "'bg-gray-50 dark:bg-gray-900 w-full'"],
 		[
 			"mainDivClass",
@@ -23,7 +23,7 @@
 			"string",
 			"'flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white'"
 		],
-		["siteImgClass", "string", "'mr-4 h-11'"],
+		["siteImgClass", "string", "'ml-4 h-11'"],
 		["cardH1Class", "string", "'text-2xl font-bold text-gray-900 dark:text-white'"]
 	]
 }

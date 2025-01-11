@@ -85,11 +85,11 @@
 									src={imagesPath(src, 'products')}
 									alt={image}
 								/>
-								<div class="ml-3">
+								<div class="mr-3">
 									<p class="truncate font-medium text-gray-900 dark:text-white">
 										{label}
 									</p>
-									<Change value={change} size="sm" equalHeight class="ml-px" />
+									<Change value={change} size="sm" equalHeight class="mr-px" />
 								</div>
 							</div>
 							<div
@@ -110,7 +110,7 @@
 						<div class="flex items-center justify-between">
 							<div class="flex min-w-0 items-center">
 								<Avatar src={imagesPath(avatar, 'users')} />
-								<div class="ml-3">
+								<div class="mr-3">
 									<p class="truncate font-medium text-gray-900 dark:text-white">
 										{name}
 									</p>

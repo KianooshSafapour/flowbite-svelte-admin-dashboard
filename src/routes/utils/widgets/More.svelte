@@ -3,7 +3,7 @@
 	import { twMerge } from 'tailwind-merge';
 
 	export let title: string = '';
-	export let href: string = '#';
+	export let href: string = '/#';
 
 	export let flat: boolean = false;
 

@@ -61,12 +61,12 @@ test('errors/500 has expected h1', async ({ page }) => {
 // authentication
 test('sign-in page has expected h1', async ({ page }) => {
 	await page.goto('authentication/sign-in');
-	expect(await page.textContent('h1')).toContain('Sign in to platform');
+	expect(await page.textContent('h1')).toContain('ورود به سیستم');
 });
 
 test('sign-up page has expected h1', async ({ page }) => {
 	await page.goto('authentication/sign-up');
-	expect(await page.textContent('h1')).toContain('Create a Free Account');
+	expect(await page.textContent('h1')).toContain('ایجاد حساب کاربری');
 });
 
 test('Forgot password page has expected h1', async ({ page }) => {

@@ -10,7 +10,7 @@
 		imgAlt: 'FlowBite Logo'
 	};
 	const acceptTerms = true;
-	const btnTitle = 'Create account';
+	const btnTitle = 'ساخت اکانت';
 	const termsLink = '/';
 	const labelClass = 'mb-2 dark:text-white';
 	const inputClass = 'border outline-none dark:border-gray-600 dark:bg-gray-700';

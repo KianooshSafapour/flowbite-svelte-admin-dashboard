@@ -6,10 +6,10 @@
 	export let dark: boolean = false;
 
 	const states = {
-		completed: 'Completed',
-		cancelled: 'Canceled',
-		inreview: 'In review',
-		inprogress: 'In progress'
+		completed: 'موفق',
+		cancelled: 'لغو شده',
+		inreview: 'در حال بررسی',
+		inprogress: 'در حال انجام'
 	};
 
 	const colors: Record<string, BadgeProps['color']> = {
@@ -20,4 +20,6 @@
 	};
 </script>
 
-<Badge color={colors[state] ?? 'dark'} border={dark}>{states[state] ?? 'Unknown'}</Badge>
+<Badge class="w-24 text-base font-normal" color={colors[state] ?? 'dark'} border={dark}
+	>{states[state] ?? 'Unknown'}</Badge
+>

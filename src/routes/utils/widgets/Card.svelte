@@ -9,7 +9,7 @@
 
 <Card size="xl" class="shadow-sm {clazz}">
 	<div class="mb-4 mt-px lg:mb-0">
-		<Heading tag="h3" class="-ml-0.25 mb-2 text-xl font-semibold dark:text-white">
+		<Heading tag="h3" class="-mr-0.25 mb-2 text-xl font-semibold dark:text-white">
 			{title}
 		</Heading>
 		{#if subtitle}
